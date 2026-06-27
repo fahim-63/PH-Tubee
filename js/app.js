@@ -109,6 +109,7 @@ if(videos.length === 0){
             <h2 class="text-3xl font-bold">Oops!!Sorry,There is no content here.</h2>
         </div>
     `
+    hideLoader();
 return;
 }
 videos.forEach(video => {
